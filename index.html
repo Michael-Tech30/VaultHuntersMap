@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Name Input</title>
+        <style>
+            body {
+                font-family: 'Arial', sans-serif;
+                background-color: #333;
+                color: #fff;
+                text-align: center;
+                padding: 20px;
+            }
+    
+            label {
+                font-size: 18px;
+                margin-right: 10px;
+                color: #aaa;
+            }
+    
+            input {
+                padding: 10px;
+                font-size: 16px;
+                background-color: #555;
+                color: #fff;
+                border: none;
+            }
+    
+            button {
+                padding: 10px 20px;
+                font-size: 16px;
+                cursor: pointer;
+                background-color: #007BFF;
+                color: #fff;
+                border: none;
+            }
+        </style>
+    </head>
+<body>
+    <label for="nameInput">Enter your name:</label>
+    <input type="text" id="nameInput" placeholder="Your name">
+    <button onclick="goToMap()">Go to Map</button>
+
+    <script>
+        function goToMap() {
+            var name = document.getElementById('nameInput').value;
+            if (name.trim() !== '') {
+                window.location.href = 'map.html#' + name;
+            } else {
+                alert('Please enter your name.');
+            }
+        }
+    </script>
+</body>
+</html>
