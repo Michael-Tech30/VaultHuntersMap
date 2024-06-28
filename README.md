@@ -14,6 +14,6 @@ A web-based tool for the Minecraft mod pack Vault Hunters. This tool connects to
 On the web browser, visit http://localhost and at the homepage, enter your Minecraft name and click "Go to Map". On the map page, you can click the map to add a waypoint marker.
 
 ## Features
--Real-time tracking of player movement in Vault Hunters.
--Web-based interface for ease of use.
--Seamless integration with the modded Minecraft directory.
+- Real-time tracking of player movement in Vault Hunters.
+- Web-based interface for ease of use.
+- Seamless integration with the modded Minecraft directory.
